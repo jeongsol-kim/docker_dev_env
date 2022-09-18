@@ -31,3 +31,6 @@ docker --version
 
 # add user to docker group
 sudo usermod -aG docker $(whoami)
+
+# docker login
+docker login -u $1
